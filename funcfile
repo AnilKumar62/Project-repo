@@ -1,0 +1,12 @@
+myfunc()
+{
+
+a=$1
+if [ a eq 1 ]; then
+echo "Print the value of a: "
+else
+echo "Please provide the values for a:"
+fi
+
+}
+myfunc
